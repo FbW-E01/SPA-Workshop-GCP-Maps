@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>HELLO WORLD!</p>
+
+    <!-- Google Maps Embed API -->
+    <!-- <iframe
+        width="800"
+        height="450"
+        style="border:1em solid red"
+        loading="lazy"
+        allowfullscreen
+        src="https://www.google.com/maps/embed/v1/place?key=KEY_HERE&q=Area%2051&zoom=14">
+    </iframe> -->
+
+    <!-- Google Maps Static API -->
+    <!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:blue%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Clabel:C%7C40.718217,-73.998284&key=KEY_HERE"/> -->
+
+    <!-- Google Maps JS API -->
+    <!-- <div id="map" style="border: 1em solid blue; width: 500px; height: 200px;"></div>
+
+     Async script executes immediately and must be after any DOM elements used in callback. -->
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=KEY_HERE&callback=startMap"
+      async
+    ></script>
+
+    <script>
+        function startMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: { lat: -34.5, lng: 150.5 },
+            });
+            const beachMarker = new google.maps.Marker({
+                position: { lat: -33.89, lng: 151.274 },
+                map
+            });
+        }
+    </script> -->
+
+
+
+
+
+
+
+
+
+    <div id="root"></div>
+</body>
+</html>
